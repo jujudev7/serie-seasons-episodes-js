@@ -20,5 +20,17 @@ let hasBeenWatched = false;
 // =========================================
 
 document.querySelector('#episode-info').innerText = `Épisode: ${episodeTitle}
-Durée: ${episodeDuration} min
+Durée: ${episodeDuration} minutes
 ${hasBeenWatched ? 'Déjà vu' : 'Pas encore vu'}`
+
+// Creation Object
+// =========================================
+let episode = {
+    title: "Un secret",
+    duration: 52,
+    hasBeenWatched: false
+  };
+
+  document.querySelector('#episode-info-object').innerText = `Épisode: ${episode.title}
+  Durée: ${episode.duration} minutes
+  ${episode.hasBeenWatched ? 'Déjà vu' : 'Pas encore vu'}`;
