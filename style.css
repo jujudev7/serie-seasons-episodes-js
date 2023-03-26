@@ -5,12 +5,15 @@ body {
 }
 
 .series-frame {
-  max-width: 600px;
+  max-width: 650px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
   border: 2px solid #EEE;
   margin: 30px;
   padding: 10px;
+}
+
+h1 {
+  padding-right: 40px;
 }
